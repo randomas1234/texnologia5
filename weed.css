@@ -1,0 +1,78 @@
+.ul{
+	list-style: none;
+}
+
+.ul li{
+	color: #666;
+	padding: 40px;
+	display: inline-flex;
+	font-size: 300%;
+	position: relative;
+	left: 23%;
+}
+
+.ul li:hover{
+	color: blue;
+}
+
+.p{
+	position: absolute;
+	font-size: 3vw;
+	left: 3%;
+	top:40%;
+	border: 3px solid black;
+	width: 60vw;
+	height: 30vh;
+	transition: 1s;
+
+}
+
+.foto{
+	position: absolute; 
+	left: 40%; 
+	width: 20vw;
+}
+
+.p:hover{
+	background-color: lightgray;
+}
+
+@media (max-width:767px){
+
+	.ul li{
+		font-size: 200%;
+	}
+	.p{
+		height: 10vh;
+	}
+
+}
+
+
+@media (max-width:1200px){
+
+
+	.p{
+		height: 20vh;
+	}
+
+@media (max-width:500px){
+	.p{
+		position: absolute;
+		top: 65%;
+		height: 7vh;
+	}
+}
+
+@media (max-width:500px){
+	.ul li{
+		font-size: 100%;
+	}
+}
+
+@media (max-width:500px){
+	.ul li{
+		position: relative;
+		left: 5%;
+	}
+}
